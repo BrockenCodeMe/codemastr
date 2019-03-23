@@ -44,9 +44,11 @@
         }
 
 
-        .home-right-text {
+        .home-container {
             margin: 0 20rem;
             color: #fff;
+            top: 0;
+            left: 0;
         }
 
         .cm-btn-round {
@@ -54,14 +56,33 @@
         }
 
         .home-image {
+            height: 50vh;
+            top: 25%;
+            width: 80%;
+            margin: 0;
+            background-color: #fff;
+            -webkit-box-shadow: -24px 19px 16px -4px rgba(212, 212, 212, 0.46);
+            -moz-box-shadow: -24px 19px 16px -4px rgba(212, 212, 212, 0.46);
+            box-shadow: -24px 19px 16px -4px rgba(212, 212, 212, 0.46);
+            float: right;
+            right: 0;
+        }
 
-            border: 10px solid #d4d4d4;
-            text-align: center;
-            height: 60%;
-            width: 30vw;
+        .home-vertical {
+
+            -ms-transform: rotate(-90deg); /* IE 9 */
+            -webkit-transform: rotate(-90deg); /* Safari */
+            transform: rotate(-90deg) translate(-100%, 0); /* Standard syntax */
+            justify-content: center;
+            display: flex;
+            transform-origin: left top;
             position: absolute;
-            top: 20vh;
-            left: -20%;
+            float: left;
+            width: 100vh;
+            margin-bottom: auto;
+            left: 0;
+            top: 0;
+
         }
 
     </style>
@@ -69,6 +90,8 @@
 <body data-lang="en">
 
 <div id="fullpage">
+
+    <!-- Section 1 -->
     <div class="section">
         <div class="row h-100">
             <div class="col-4">
@@ -80,46 +103,59 @@
                 <nav class="navbar navbar-expand-lg navbar-dark position-absolute w-100">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">SERVICES</a>
+                            <a class="nav-link" href="#services">SERVICES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT</a>
+                            <a class="nav-link" href="#about">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">WORKFLOW</a>
+                            <a class="nav-link" href="#workflow">WORKFLOW</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">EXPERTISE</a>
                         </li>
                     </ul>
                 </nav>
-                <div class="align-middle home-right-text my-auto">
-                    <h2>Implement<br/>your Business Idea</h2><br/>
-                    <p>I want to be an astronaut with a pickle sized rocket that does level acrobatics!
-                        Everyone has a business idea or a dream they'd love to put into existence.
-                        Perhaps, it seems too difficult or unrealistic for you.</p>
-                    <p>Why don't you let Codemastr do it for you? let's do this!</p><br/><br/>
-                    <button type="button" class="btn btn-light btn-lg cm-btn-round align-middle">Contact Us <img
-                            class="ml-4" src="https://image.flaticon.com/icons/svg/109/109617.svg" width="15"
-                            height="15"/></button>
-                </div>
-
-
-                <div class="home-image">
-                    <h1 class="text-center">PHOTO</h1>
-                </div>
 
             </div>
         </div>
+        <div class="row h-100 position-absolute align-middle home-container">
+
+
+            <div class="col-6 text-dark">
+                <div class="home-vertical">
+                    <h1 class="text-center">DESIGN</h1>
+                </div>
+                <div class="home-image position-absolute">
+                    <h1 class="text-center">PHOTO</h1>
+                </div>
+            </div>
+
+            <div class=" col-6 my-auto pl-5">
+                <h2>Implement<br/>your Business Idea</h2><br/>
+                <p>I want to be an astronaut with a pickle sized rocket that does level acrobatics!
+                    Everyone has a business idea or a dream they'd love to put into existence.
+                    Perhaps, it seems too difficult or unrealistic for you.</p>
+                <p>Why don't you let Codemastr do it for you? let's do this!</p><br/><br/>
+                <button type="button" class="btn btn-light btn-lg cm-btn-round align-middle">Contact Us <img
+                        class="ml-4" src="https://image.flaticon.com/icons/svg/109/109617.svg" width="15"
+                        height="15"/></button>
+            </div>
+        </div>
     </div>
+
+    <!-- Section 2 -->
     <div class="section">
-        <div class="slide" data-anchor="slide1">Two 1</div>
-        <div class="slide" data-anchor="slide2">Two 2</div>
+
     </div>
+
+    <!-- Section 3 -->
     <div class="section">Three</div>
+
+    <!-- Section 4 -->
     <div class="section">Four</div>
 </div>
 
@@ -130,7 +166,17 @@
 
 <script type="text/javascript">
     new fullpage('#fullpage', {
-        sectionsColor: ['#fff', 'orange', '#C0C0C0', '#ADD8E6'],
+        sectionsColor: ['#fff', '#fff', '#C0C0C0', '#ADD8E6'],
+        anchors: ['home', 'services', 'about', 'workflow'],
+        navigationTooltips: ['HOME', 'SERVICES', 'ABOUT', 'WORKFLOW'],
+        css3: true,
+        scrollingSpeed: 1000,
+        navigation: true,
+        slidesNavigation: true,
+        responsiveHeight: 330,
+        dragAndMove: true,
+        dragAndMoveKey: 'YWx2YXJvdHJpZ28uY29tX0EyMlpISmhaMEZ1WkUxdmRtVT0wWUc=',
+        controlArrows: false
     });
 </script>
 
