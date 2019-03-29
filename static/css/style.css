@@ -42,6 +42,7 @@ a {
     background-color: #fff;
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: 60%;
 }
 
 
@@ -63,6 +64,12 @@ a {
     color: #253a83;
 
 }
+
+.nav-link {
+    font-size: 16.667px;
+    margin: 0 10px;
+}
+
 
 .home-body > h2 {
     font-family: poppins-bold, sans-serif;
