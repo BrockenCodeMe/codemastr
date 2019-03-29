@@ -20,9 +20,9 @@ a {
 }
 
 .home-image {
-    height: 50vh;
-    top: 25%;
-    width: 80%;
+    height: 60vh;
+    top: 15%;
+    width: 70%;
     margin: 0;
     background-color: #fff;
     -webkit-box-shadow: -24px 19px 16px -4px rgba(212, 212, 212, 0.46);
@@ -46,6 +46,7 @@ a {
     margin-bottom: auto;
     left: 0;
     top: 0;
+    font-family: bauerbodoni-std, serif;
 
 }
 
