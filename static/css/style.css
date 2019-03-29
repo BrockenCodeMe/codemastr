@@ -35,6 +35,10 @@ a {
     box-shadow: -24px 19px 16px -4px rgba(212, 212, 212, 0.46);
     float: right;
     right: 0;
+
+    background-repeat:   no-repeat;
+    background-position: center center;
+    /*background-size: contain;*/
 }
 
 .home-vertical {
