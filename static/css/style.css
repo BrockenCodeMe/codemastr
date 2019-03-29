@@ -1,3 +1,8 @@
+
+body {
+    font-family: poppins-regular, sans-serif;
+}
+
 a {
     color: #fff;
 }
@@ -21,7 +26,7 @@ a {
 
 .home-image {
     height: 60vh;
-    top: 15%;
+    top: 20%;
     width: 70%;
     margin: 0;
     background-color: #fff;
@@ -47,8 +52,24 @@ a {
     left: 0;
     top: 0;
     font-family: bauerbodoni-std, serif;
+    color: #253a83;
 
 }
+
+.home-body > h2 {
+    font-family: poppins-bold, sans-serif;
+}
+
+.home-body > p {
+    font-size: 0.95em;
+}
+
+.home-body > button {
+    font-family: poppins-medium, sans-serif;
+    font-size: 0.9em;
+    padding: 10px 15px;
+}
+
 
 .service-circle {
     width: 70px;
