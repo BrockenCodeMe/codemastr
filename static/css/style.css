@@ -152,23 +152,22 @@ a {
     width: 50vh; /* You can define it by % also */
     height: 50vh; /* You can define it by % also */
     position: relative;
-    border: 1px solid black;
-    border-radius: 50%;
-}
-
-.c-inner {
-    /*background-color: lime;*/
-    top: 15%;
-    left: 15%; /* of the container */
-    width: 70%; /* of the outer-1 */
-    height: 70%; /* of the outer-1 */
-    position: absolute;
-    /*border: 1px solid black;*/
     border-radius: 50%;
     border-style: dashed;
     border-width: 1.5px;
     border-color: rgb(137, 137, 137);
-    background-color: rgba(255, 255, 255, 0);
+}
+
+.c-inner {
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    border-radius: 50%;
+    border-style: dashed;
+    border-width: 1.5px;
+    border-color: rgb(137, 137, 137);
 }
 
 .c-inner2 {
@@ -176,25 +175,23 @@ a {
     background-image: -webkit-linear-gradient(115deg, rgb(37, 58, 131) 0%, rgb(32, 152, 213) 100%);
     background-image: -ms-linear-gradient(115deg, rgb(37, 58, 131) 0%, rgb(32, 152, 213) 100%);
     top: 30%;
-    left: 30%; /* of the container */
-    width: 40%; /* of the inner-1 */
-    height: 40%; /* of the inner-1 */
+    left: 30%;
+    width: 40%;
+    height: 40%;
     position: absolute;
-    /*border: 1px solid black;*/
     border-radius: 50%;
 }
 
 .c-inner3 {
     top: 31.5%;
-    left: 31.5%; /* of the container */
-    width: 37%; /* of the outer-1 */
-    height: 37%; /* of the outer-1 */
+    left: 31.5%;
+    width: 37%;
+    height: 37%;
     position: absolute;
     border-radius: 50%;
     border-style: solid;
     border-width: 1.5px;
     border-color: #fff;
-    background-color: rgba(255, 255, 255, 0);
 }
 
 .workflow-logo {
@@ -204,4 +201,17 @@ a {
     top: 35%;
     position: absolute;
 }
+
+.workflow-img-circle {
+    border-radius: 50%;
+    box-shadow: 0 17px 23.1px 11.9px rgba(0, 0, 0, 0.04);
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50%;
+}
+
 
