@@ -129,13 +129,71 @@ a {
 }
 
 .workflow-test {
-    height: 223px;
+    /*height: 223px;*/
 }
 
 .workflow-title {
     font-size: 2em;
     font-family: poppins-bold, sans-serif;
 }
+
+.workflow-head {
+    font-size: 1.2em;
+    font-family: poppins-medium, sans-serif;
+}
+
+.workflow-body {
+    font-size: 0.9em;
+    font-family: poppins-regular, sans-serif;
+}
+
+.c-outer {
+    /*background-color: blue;*/
+    width: 50vh; /* You can define it by % also */
+    height: 50vh; /* You can define it by % also */
+    position: relative;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.c-inner {
+    /*background-color: lime;*/
+    top: 10%;
+    left: 10%; /* of the container */
+    width: 80%; /* of the outer-1 */
+    height: 80%; /* of the outer-1 */
+    position: absolute;
+    /*border: 1px solid black;*/
+    border-radius: 50%;
+    border-style: dashed;
+    border-width: 2.083px;
+    border-color: rgb(137, 137, 137);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.c-inner2 {
+    /*background-color: yellow;*/
+    top: 20%;
+    left: 20%; /* of the container */
+    width: 60%; /* of the inner-1 */
+    height: 60%; /* of the inner-1 */
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.Ellipse_4_copy_2 {
+  border-radius: 50%;
+  background-image: -moz-linear-gradient( 115deg, rgb(37,58,131) 0%, rgb(32,152,213) 100%);
+  background-image: -webkit-linear-gradient( 115deg, rgb(37,58,131) 0%, rgb(32,152,213) 100%);
+  background-image: -ms-linear-gradient( 115deg, rgb(37,58,131) 0%, rgb(32,152,213) 100%);
+  position: absolute;
+  left: 845px;
+  top: 3591px;
+  width: 226px;
+  height: 226px;
+  z-index: 108;
+}
+
 
 
 
