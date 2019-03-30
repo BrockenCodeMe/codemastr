@@ -158,43 +158,50 @@ a {
 
 .c-inner {
     /*background-color: lime;*/
-    top: 10%;
-    left: 10%; /* of the container */
-    width: 80%; /* of the outer-1 */
-    height: 80%; /* of the outer-1 */
+    top: 15%;
+    left: 15%; /* of the container */
+    width: 70%; /* of the outer-1 */
+    height: 70%; /* of the outer-1 */
     position: absolute;
     /*border: 1px solid black;*/
     border-radius: 50%;
     border-style: dashed;
-    border-width: 2.083px;
+    border-width: 1.5px;
     border-color: rgb(137, 137, 137);
     background-color: rgba(255, 255, 255, 0);
 }
 
 .c-inner2 {
-    /*background-color: yellow;*/
-    top: 20%;
-    left: 20%; /* of the container */
-    width: 60%; /* of the inner-1 */
-    height: 60%; /* of the inner-1 */
+    background-image: -moz-linear-gradient(115deg, rgb(37, 58, 131) 0%, rgb(32, 152, 213) 100%);
+    background-image: -webkit-linear-gradient(115deg, rgb(37, 58, 131) 0%, rgb(32, 152, 213) 100%);
+    background-image: -ms-linear-gradient(115deg, rgb(37, 58, 131) 0%, rgb(32, 152, 213) 100%);
+    top: 30%;
+    left: 30%; /* of the container */
+    width: 40%; /* of the inner-1 */
+    height: 40%; /* of the inner-1 */
     position: absolute;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-radius: 50%;
 }
-.Ellipse_4_copy_2 {
-  border-radius: 50%;
-  background-image: -moz-linear-gradient( 115deg, rgb(37,58,131) 0%, rgb(32,152,213) 100%);
-  background-image: -webkit-linear-gradient( 115deg, rgb(37,58,131) 0%, rgb(32,152,213) 100%);
-  background-image: -ms-linear-gradient( 115deg, rgb(37,58,131) 0%, rgb(32,152,213) 100%);
-  position: absolute;
-  left: 845px;
-  top: 3591px;
-  width: 226px;
-  height: 226px;
-  z-index: 108;
+
+.c-inner3 {
+    top: 31.5%;
+    left: 31.5%; /* of the container */
+    width: 37%; /* of the outer-1 */
+    height: 37%; /* of the outer-1 */
+    position: absolute;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #fff;
+    background-color: rgba(255, 255, 255, 0);
 }
 
-
-
-
+.workflow-logo {
+    filter: brightness(0) invert(1);
+    width: 50%;
+    left: 25%;
+    top: 35%;
+    position: absolute;
+}
 
