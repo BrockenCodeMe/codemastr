@@ -84,11 +84,9 @@
 
             <div class="col-6 text-dark">
                 <div class="home-vertical ml-4">
-                    <h1 class="text-center" style="font-size: 5em;">DESIGN</h1>
+                    <h1 class=" text-center" style="font-size: 5em;">DESIGN</h1>
                 </div>
                 <div class="home-image position-absolute" style="background-image: url('static/images/home1.png');">
-                    <!--<h1 class="text-center">PHOTO</h1>-->
-                    <!--<img class="mx-auto" type="image/svg+xml" src="static/images/home1.svg" />-->
                 </div>
             </div>
 
@@ -203,7 +201,7 @@
             </div>
             <div class="row">
                 <!-- Left -->
-                <div class="col-3 workflow-test position-relative">
+                <div class="col-3 position-relative">
                     <div class="row position-absolute">
                         <p class="workflow-head">Meet & Greet</p>
                         <p class="workflow-body">"Hi! My name's Sally, rhymes with tally.<br/>
@@ -219,22 +217,26 @@
                 </div>
 
                 <!-- Center -->
-                <div class="col-6 workflow-test">
+                <div class="col-6 ">
                     <div class="c-outer mx-auto">
                         <div class="c-inner"> &nbsp</div>
                         <div class="c-inner2"></div>
                         <div class="c-inner3">
                             <img class="workflow-logo" src="static/images/codemastr-icon.png">
                         </div>
-                        <div class="workflow-img-circle" style="top: 0; left: 0; background-image: url('static/images/workflow-icon-1.png');"></div>
-                        <div class="workflow-img-circle" style="top: 0; right: 0; background-image: url('static/images/workflow-icon-2.png');"></div>
-                        <div class="workflow-img-circle" style="bottom: 0; left: 0; background-image: url('static/images/workflow-icon-3.png');"></div>
-                        <div class="workflow-img-circle" style="bottom: 0; right: 0; background-image: url('static/images/workflow-icon-4.png');"></div>
+                        <div class="workflow-img-circle"
+                             style="top: 0; left: 0; background-image: url('static/images/workflow-icon-1.png');"></div>
+                        <div class="workflow-img-circle"
+                             style="top: 0; right: 0; background-image: url('static/images/workflow-icon-2.png');"></div>
+                        <div class="workflow-img-circle"
+                             style="bottom: 0; left: 0; background-image: url('static/images/workflow-icon-3.png');"></div>
+                        <div class="workflow-img-circle"
+                             style="bottom: 0; right: 0; background-image: url('static/images/workflow-icon-4.png');"></div>
                     </div>
                 </div>
 
                 <!-- Right -->
-                <div class="col-3 workflow-test position-relative">
+                <div class="col-3 position-relative">
                     <div class="row position-absolute">
                         <p class="workflow-head text-right w-100">Discuss new idea</p>
                         <p class="workflow-body text-right w-100">"A-ha! So... What's your idea? At this<br/>
@@ -264,17 +266,16 @@
 
 <script type="text/javascript">
     new fullpage('#fullpage', {
-        sectionsColor: ['#fff', '#fff', '#faf9f9', '#fff', '#fff'],
+        sectionsColor: ['#fff', '#fff', '#faf9f9', '#fff', '#f6f4f5'],
         anchors: ['home', 'services', 'about', 'workflow', 'expertise'],
-        navigationTooltips: ['HOME', 'SERVICES', 'ABOUT', 'WORKFLOW', 'EXPERTISE'],
         css3: true,
         scrollingSpeed: 1000,
-        navigation: true,
         slidesNavigation: true,
         responsiveHeight: 330,
         dragAndMove: true,
         dragAndMoveKey: 'YWx2YXJvdHJpZ28uY29tX0EyMlpISmhaMEZ1WkUxdmRtVT0wWUc=',
-        controlArrows: false
+        controlArrows: false,
+        scrollBar: true
     });
 </script>
 

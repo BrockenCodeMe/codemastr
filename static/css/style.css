@@ -128,10 +128,6 @@ a {
     font-family: poppins-regular, sans-serif;
 }
 
-.workflow-test {
-    /*height: 223px;*/
-}
-
 .workflow-title {
     font-size: 2em;
     font-family: poppins-bold, sans-serif;
@@ -213,5 +209,4 @@ a {
     background-position: center center;
     background-size: 50%;
 }
-
 
