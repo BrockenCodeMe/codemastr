@@ -122,13 +122,13 @@ a {
     font-family: poppins-bold, sans-serif;
 }
 
-.about-body {
+.about-body, .expertise-body {
     font-size: 0.9em;
     color: #777c87;
     font-family: poppins-regular, sans-serif;
 }
 
-.workflow-title {
+.workflow-title, .expertise-head {
     font-size: 2em;
     font-family: poppins-bold, sans-serif;
 }
@@ -210,3 +210,20 @@ a {
     background-size: 50%;
 }
 
+.expertise-col {
+    width: 25%;
+    float: left;
+}
+
+.expertise-box {
+    background-color: #fff;
+    height: 120px;
+    width: 120px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 80%;
+}
+
+.expertise-grid {
+    background-image: url("static/images/exper");
+}
