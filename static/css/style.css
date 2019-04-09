@@ -17,10 +17,7 @@ a {
 
 
 .home-container {
-    margin: 0 20rem;
     color: #fff;
-    top: 0;
-    left: 0;
 }
 
 .cm-btn-round {
@@ -52,13 +49,13 @@ a {
     -ms-transform: rotate(-90deg); /* IE 9 */
     -webkit-transform: rotate(-90deg); /* Safari */
     transform: rotate(-90deg) translate(-100%, 0); /* Standard syntax */
-    justify-content: center;
-    display: flex;
+    /*justify-content: center;*/
+    /*display: flex;*/
     transform-origin: left top;
     position: absolute;
     float: left;
-    width: 100vh;
-    margin-bottom: auto;
+    /*width: 100vh;*/
+    /*margin-bottom: auto;*/
     left: 0;
     top: 0;
     font-family: bauerbodoni-std, serif;
@@ -252,6 +249,7 @@ a {
     display: block;
     font-size: 0.9em;
     font-family: poppins-regular, sans-serif;
+    cursor: pointer;
 }
 
 .footer-links.active {
@@ -261,4 +259,5 @@ a {
 .footer-copyright {
     font-size: 0.9em;
     font-family: poppins-regular, sans-serif;
+    cursor: pointer;
 }
